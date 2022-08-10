@@ -1,0 +1,11 @@
+clc;
+clear;
+a = imread('keys.png');
+b = imread('1.png');
+[count, level] = imhist(a);
+% a1 = histeq(a, count);
+figure(1);
+imshow(b);
+figure(2);
+% imshow(a1);
+plot(level, count);
