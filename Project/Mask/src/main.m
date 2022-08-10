@@ -3,7 +3,7 @@ close;
 clc;
 clear;
 %% Show Original Image
-x = imread('1106104223.bmp');
+x = imread('10.bmp');
 figure(1);
 imshow(x);
 %% 針對"上方"錫球做處理，凸顯較"暗"的部分
